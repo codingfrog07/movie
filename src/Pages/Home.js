@@ -1,5 +1,11 @@
-const Home = () => {
-    return <h2>HOME</h2>
-}
+import MovieList from "../Components/MovieList"
 
-export default Home
+const Home = () => {
+    return <div>
+        <h2>HOME</h2>
+        <MovieList
+        />
+
+    </div>
+}
+export default Home;

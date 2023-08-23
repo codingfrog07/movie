@@ -25,3 +25,15 @@
   margin-bottom: 16px;
   margin-left: 16px;
 }
+
+.movie-list-container {
+  display: flex;
+}
+
+.movie-card-container {
+  width: 250px;
+}
+
+.movie-card-container img {
+  max-width: 100%;
+}
