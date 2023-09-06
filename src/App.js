@@ -2,8 +2,9 @@ import './App.css';
 import { Route, Router, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import Like from './Pages/Like'
-import Review from './Pages/Review';
+import Rank from './Pages/Rank';
 import Nav from './Components/Nav';
+
 
 
 
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/like' element={<Like />} />
-        <Route path='/review' element={<Review />} />
+        <Route path='/rank' element={<Rank />} />
       </Routes>
     </div>
   );

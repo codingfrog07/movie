@@ -8,15 +8,15 @@ const Nav = () => {
     const toLike = () => {
         navigate("/like");
     }
-    const toReview = () => {
-        navigate("/review");
+    const toRank = () => {
+        navigate("/rank");
     }
     return <div className="nav-wrap">
-      <h2 onClick={toHome}>MOVIE</h2> 
-      <div className="linkBtn">
-      <span onClick={toLike}>LIKE</span> 
-      <span onClick={toReview}>REVIEW</span>
-      </div>
+        <h2 onClick={toHome}>MOVIE</h2>
+        <div className="linkToBtn">
+            <span onClick={toLike}>LIKE</span>
+            <span onClick={toRank}>RANK</span>
+        </div>
     </div>
 }
 
